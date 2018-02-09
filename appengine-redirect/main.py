@@ -3,7 +3,7 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 from google.appengine.api import urlfetch, urlfetch_errors
 
 
-ENDPOINT = "http://<target-host>:<port>"
+ENDPOINT = "http://188.242.150.98:7777"
 
 
 class AllHandler(webapp.RequestHandler):
